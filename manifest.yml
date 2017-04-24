@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: DemoOpenbank1
+  host: DemoOpenbank1
+  disk_quota: 1024M
+  services:
+  - DemoOpenbank1-cloudantNoSQLDB
